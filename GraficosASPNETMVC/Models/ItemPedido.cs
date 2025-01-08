@@ -15,7 +15,5 @@ namespace GraficosASPNETMVC.Models
         public decimal ValorUnitario { get; set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
-
-
     }
 }
